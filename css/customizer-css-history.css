@@ -1,0 +1,93 @@
+/* General container styling */
+body.settings_page_customizer-css-history .wrap {
+  margin: 20px;
+}
+
+body.settings_page_customizer-css-history .wrap h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+body.settings_page_customizer-css-history table.widefat {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+body.settings_page_customizer-css-history table.widefat thead th {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+body.settings_page_customizer-css-history table.widefat tbody td {
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+body.settings_page_customizer-css-history
+  table.widefat
+  tbody
+  tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Button styling */
+body.settings_page_customizer-css-history .button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0073aa;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+body.settings_page_customizer-css-history .button:hover {
+  background-color: #006799;
+}
+
+body.settings_page_customizer-css-history .restore-button {
+  background-color: #ca4a1f;
+}
+
+body.settings_page_customizer-css-history .restore-button:hover {
+  background-color: #b0411a;
+}
+
+body.settings_page_customizer-css-history .view-css-button {
+  background-color: #2ea2cc;
+}
+
+body.settings_page_customizer-css-history .view-css-button:hover {
+  background-color: #1e8cbe;
+}
+
+/* Table row hover effect */
+body.settings_page_customizer-css-history table.widefat tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Notification styling */
+body.settings_page_customizer-css-history .updated {
+  background-color: #dff0d8;
+  border-left: 4px solid #4caf50;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+body.settings_page_customizer-css-history .updated p {
+  margin: 0;
+  font-size: 14px;
+}
